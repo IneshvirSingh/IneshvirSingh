@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Inesh</h1>
-<h3 align="center">Computer Science Student | Backend Systems | AI & Computer Vision</h3>
+<h3 align="center">Artifical Intelligence and Machine Learning Student | Backend Systems | AI & Computer Vision</h3>
 
 <p align="center">
 Building practical software systems, intelligent automation tools, and data-driven applications.
