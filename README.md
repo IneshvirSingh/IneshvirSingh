@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Inesh</h1>
+<h1 align="center">Hi 👋, I'm Ineshvir Singh Khurana</h1>
 <h3 align="center">Artifical Intelligence and Machine Learning Student | Backend Systems | AI & Computer Vision</h3>
 
 <p align="center">
