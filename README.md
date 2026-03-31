@@ -1,90 +1,52 @@
 <svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&amp;display=swap');
- 
-      .greeting {
-        font-family: 'Space Mono', monospace;
-        font-size: 18px;
-        fill: #8b949e;
-        opacity: 0;
-        animation: fadeUp 0.6s ease forwards;
-        animation-delay: 0.2s;
-      }
- 
-      .name-inesh {
-        font-family: 'Space Mono', monospace;
-        font-size: 36px;
-        font-weight: 700;
-        fill: #ffffff;
-        opacity: 0;
-        animation: fadeUp 0.7s ease forwards;
-        animation-delay: 0.6s;
-      }
- 
-      .name-singh {
-        font-family: 'Space Mono', monospace;
-        font-size: 36px;
-        font-weight: 700;
-        fill: #58a6ff;
-        opacity: 0;
-        animation: fadeUp 0.7s ease forwards;
-        animation-delay: 1.0s;
-      }
- 
-      .name-khurana {
-        font-family: 'Space Mono', monospace;
-        font-size: 36px;
-        font-weight: 700;
-        fill: #ffffff;
-        opacity: 0;
-        animation: fadeUp 0.7s ease forwards;
-        animation-delay: 1.4s;
-      }
- 
-      .cursor {
-        fill: #58a6ff;
-        opacity: 0;
-        animation: fadeUp 0.3s ease forwards, blink 1s step-end infinite;
-        animation-delay: 2.0s, 2.0s;
-      }
- 
-      @keyframes fadeUp {
-        from {
-          opacity: 0;
-          transform: translateY(12px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
- 
-      @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-      }
-    </style>
-  </defs>
  
   <rect width="800" height="120" fill="#0d1117" rx="12"/>
- 
-  <!-- Subtle grid lines for depth -->
   <line x1="0" y1="60" x2="800" y2="60" stroke="#161b22" stroke-width="1"/>
   <line x1="400" y1="0" x2="400" y2="120" stroke="#161b22" stroke-width="1"/>
  
-  <!-- Greeting line -->
-  <text x="400" y="32" text-anchor="middle" class="greeting">Hi, I'm</text>
+  <!-- Greeting -->
+  <g opacity="0">
+    <text x="400" y="32" text-anchor="middle"
+      font-family="monospace" font-size="18" fill="#8b949e">Hi, I'm</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+      from="0 10" to="0 0" begin="0.2s" dur="0.6s" fill="freeze"/>
+  </g>
  
-  <!-- Animated name words -->
-  <text x="162" y="82" text-anchor="start" class="name-inesh">Ineshvir</text>
-  <text x="357" y="82" text-anchor="start" class="name-singh">Singh</text>
-  <text x="487" y="82" text-anchor="start" class="name-khurana">Khurana</text>
+  <!-- Ineshvir -->
+  <g opacity="0">
+    <text x="162" y="82" text-anchor="start"
+      font-family="monospace" font-size="36" font-weight="bold" fill="#ffffff">Ineshvir</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+      from="0 12" to="0 0" begin="0.7s" dur="0.7s" fill="freeze"/>
+  </g>
  
-  <!-- Blinking cursor after name -->
-  <rect x="639" y="56" width="3" height="26" rx="1" class="cursor"/>
+  <!-- Singh -->
+  <g opacity="0">
+    <text x="357" y="82" text-anchor="start"
+      font-family="monospace" font-size="36" font-weight="bold" fill="#58a6ff">Singh</text>
+    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+      from="0 12" to="0 0" begin="1.2s" dur="0.7s" fill="freeze"/>
+  </g>
+ 
+  <!-- Khurana -->
+  <g opacity="0">
+    <text x="487" y="82" text-anchor="start"
+      font-family="monospace" font-size="36" font-weight="bold" fill="#ffffff">Khurana</text>
+    <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+      from="0 12" to="0 0" begin="1.7s" dur="0.7s" fill="freeze"/>
+  </g>
+ 
+  <!-- Blinking cursor -->
+  <rect x="639" y="56" width="3" height="26" rx="1" fill="#58a6ff" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" begin="2.7s" dur="1s" repeatCount="indefinite"/>
+  </rect>
+ 
 </svg>
- 
  
 ---
  
