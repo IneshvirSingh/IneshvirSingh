@@ -21,7 +21,7 @@
  
 ---
  
-## ⚡ About Me
+## About Me
  
 - &nbsp;AI/ML student focused on systems that work beyond the notebook
 - &nbsp;Currently building **finance tools, ML systems, and automation pipelines**
@@ -85,7 +85,7 @@
 
 ## Featured Projects
  
-### 🔵 [SkillSphere](https://github.com/IneshvirSingh) &nbsp;`Mar 2026`
+### 🔵 [SkillSphere](https://github.com/IneshvirSingh) &nbsp; 
 > AI-powered talent intelligence platform — because résumés don't capture engineering depth.
  
 - Built a **6-agent pipeline** with embedding-based semantic matching and a **BFS skill adjacency graph** to analyze GitHub profiles against job descriptions — cut screening time by **70% across 500+ profiles**
@@ -96,7 +96,7 @@
  
 ---
  
-### 🟠 [Intelligent Traffic Violation Detection System](https://github.com/IneshvirSingh) &nbsp;`Nov 2025 – Feb 2026`
+### 🟠 [Intelligent Traffic Violation Detection System](https://github.com/IneshvirSingh) &nbsp;
 > Real-time computer vision pipeline for AI-powered traffic monitoring.
  
 - Built end-to-end CV pipeline processing **10k+ video frames** using **YOLOv8** object detection and multi-object tracking across live video streams
@@ -106,7 +106,7 @@
  
 ---
  
-### 🟢 [FinTrack+](https://github.com/IneshvirSingh) &nbsp;`Apr 2025 – May 2025`
+### 🟢 [FinTrack+](https://github.com/IneshvirSingh) &nbsp;
 > Full-stack personal finance manager — built for real analytics, not toy demos.
  
 - Handled **1,000+ simulated financial transaction records** with REST APIs for expense tracking and budgeting
