@@ -1,68 +1,104 @@
-<h1 align="center">Hi 👋, I'm Ineshvir Singh Khurana</h1>
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&amp;display=swap');
  
-<p align="center">
-  <em>Building intelligent systems that actually ship.</em>
-</p>
+      .greeting {
+        font-family: 'Space Mono', monospace;
+        font-size: 18px;
+        fill: #8b949e;
+        opacity: 0;
+        animation: fadeUp 0.6s ease forwards;
+        animation-delay: 0.2s;
+      }
  
-<p align="center">
-  <a href="https://www.linkedin.com/in/ineshvirsinghkhurana">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/IneshvirSingh">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:ivskhurana@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=IneshvirSingh&style=for-the-badge&color=0e75b6" alt="Profile Views" />
-</p>
+      .name-inesh {
+        font-family: 'Space Mono', monospace;
+        font-size: 36px;
+        font-weight: 700;
+        fill: #ffffff;
+        opacity: 0;
+        animation: fadeUp 0.7s ease forwards;
+        animation-delay: 0.6s;
+      }
+ 
+      .name-singh {
+        font-family: 'Space Mono', monospace;
+        font-size: 36px;
+        font-weight: 700;
+        fill: #58a6ff;
+        opacity: 0;
+        animation: fadeUp 0.7s ease forwards;
+        animation-delay: 1.0s;
+      }
+ 
+      .name-khurana {
+        font-family: 'Space Mono', monospace;
+        font-size: 36px;
+        font-weight: 700;
+        fill: #ffffff;
+        opacity: 0;
+        animation: fadeUp 0.7s ease forwards;
+        animation-delay: 1.4s;
+      }
+ 
+      .cursor {
+        fill: #58a6ff;
+        opacity: 0;
+        animation: fadeUp 0.3s ease forwards, blink 1s step-end infinite;
+        animation-delay: 2.0s, 2.0s;
+      }
+ 
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(12px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+ 
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+  </defs>
+ 
+  <rect width="800" height="120" fill="#0d1117" rx="12"/>
+ 
+  <!-- Subtle grid lines for depth -->
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#161b22" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="120" stroke="#161b22" stroke-width="1"/>
+ 
+  <!-- Greeting line -->
+  <text x="400" y="32" text-anchor="middle" class="greeting">Hi, I'm</text>
+ 
+  <!-- Animated name words -->
+  <text x="162" y="82" text-anchor="start" class="name-inesh">Ineshvir</text>
+  <text x="357" y="82" text-anchor="start" class="name-singh">Singh</text>
+  <text x="487" y="82" text-anchor="start" class="name-khurana">Khurana</text>
+ 
+  <!-- Blinking cursor after name -->
+  <rect x="639" y="56" width="3" height="26" rx="1" class="cursor"/>
+</svg>
+ 
  
 ---
  
 ## ⚡ About Me
  
-- 🧠 &nbsp;AI/ML student focused on systems that work beyond the notebook
-- 🔭 &nbsp;Currently building **finance tools, ML systems, and automation pipelines**
-- 🛠 &nbsp;I care about backend architecture as much as model performance
-- 📐 &nbsp;Writing clean, scalable, maintainable code — not just code that runs
-- 🌱 &nbsp;Deep-diving into **LLMs, Generative AI, and NLP**
+- &nbsp;AI/ML student focused on systems that work beyond the notebook
+- &nbsp;Currently building **finance tools, ML systems, and automation pipelines**
+- &nbsp;I care about backend architecture as much as model performance
+- &nbsp;Writing clean, scalable, maintainable code — not just code that runs
+- &nbsp;Deep-diving into **LLMs, Generative AI, and NLP**
  
 ---
- 
-## 🚀 Featured Projects
- 
-### 🔵 [SkillSphere](https://github.com/IneshvirSingh) &nbsp;`Mar 2026`
-> AI-powered talent intelligence platform — because résumés don't capture engineering depth.
- 
-- Built a **6-agent pipeline** with embedding-based semantic matching and a **BFS skill adjacency graph** to analyze GitHub profiles against job descriptions — cut screening time by **70% across 500+ profiles**
-- Engineered a **composite scoring system** combining cosine similarity skill matching with credibility signals from commit depth and repo activity
-- Shipped an **identity-invariant bias auditing layer**, verified across 200+ test cases
- 
-`Python` `FastAPI` `PyGithub` `sentence-transformers` `React` `Tailwind CSS` `Streamlit`
- 
----
- 
-### 🟠 [Intelligent Traffic Violation Detection System](https://github.com/IneshvirSingh) &nbsp;`Nov 2025 – Feb 2026`
-> Real-time computer vision pipeline for AI-powered traffic monitoring.
- 
-- Built end-to-end CV pipeline processing **10k+ video frames** using **YOLOv8** object detection and multi-object tracking across live video streams
-- Automated detection of red-light and lane violations via **real-time rule-based event detection** with timestamped evidence frames and traffic heatmap analytics
- 
-`Python` `YOLOv8` `OpenCV` `Flask` `SQLite`
- 
----
- 
-### 🟢 [FinTrack+](https://github.com/IneshvirSingh) &nbsp;`Apr 2025 – May 2025`
-> Full-stack personal finance manager — built for real analytics, not toy demos.
- 
-- Handled **1,000+ simulated financial transaction records** with REST APIs for expense tracking and budgeting
-- Implemented category-wise spending analytics and monthly summaries to surface financial patterns visually
- 
-`Flask` `SQLAlchemy` `SQLite`
- 
----
- 
-## 🧰 Tech Stack
+
+ ## Tech Stack
  
 **Languages**
  
@@ -113,8 +149,41 @@
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
  
 ---
+
+## Featured Projects
  
-## 📊 GitHub Stats
+### 🔵 [SkillSphere](https://github.com/IneshvirSingh) &nbsp;`Mar 2026`
+> AI-powered talent intelligence platform — because résumés don't capture engineering depth.
+ 
+- Built a **6-agent pipeline** with embedding-based semantic matching and a **BFS skill adjacency graph** to analyze GitHub profiles against job descriptions — cut screening time by **70% across 500+ profiles**
+- Engineered a **composite scoring system** combining cosine similarity skill matching with credibility signals from commit depth and repo activity
+- Shipped an **identity-invariant bias auditing layer**, verified across 200+ test cases
+ 
+`Python` `FastAPI` `PyGithub` `sentence-transformers` `React` `Tailwind CSS` `Streamlit`
+ 
+---
+ 
+### 🟠 [Intelligent Traffic Violation Detection System](https://github.com/IneshvirSingh) &nbsp;`Nov 2025 – Feb 2026`
+> Real-time computer vision pipeline for AI-powered traffic monitoring.
+ 
+- Built end-to-end CV pipeline processing **10k+ video frames** using **YOLOv8** object detection and multi-object tracking across live video streams
+- Automated detection of red-light and lane violations via **real-time rule-based event detection** with timestamped evidence frames and traffic heatmap analytics
+ 
+`Python` `YOLOv8` `OpenCV` `Flask` `SQLite`
+ 
+---
+ 
+### 🟢 [FinTrack+](https://github.com/IneshvirSingh) &nbsp;`Apr 2025 – May 2025`
+> Full-stack personal finance manager — built for real analytics, not toy demos.
+ 
+- Handled **1,000+ simulated financial transaction records** with REST APIs for expense tracking and budgeting
+- Implemented category-wise spending analytics and monthly summaries to surface financial patterns visually
+ 
+`Flask` `SQLAlchemy` `SQLite`
+ 
+---
+  
+## GitHub Stats
  
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=IneshvirSingh&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
@@ -127,7 +196,7 @@
  
 ---
  
-## 📡 Currently Learning
+## Currently Learning
  
 ```
 LLMs  ·  Generative AI  ·  NLP  ·  Advanced ML Systems
