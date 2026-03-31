@@ -1,52 +1,23 @@
-<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=32&duration=600&pause=99999&color=FFFFFF&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=100&lines=Hi%2C+I'm+Ineshvir+Singh+Khurana" alt="Hi, I'm Ineshvir Singh Khurana" />
+</p>
  
-  <rect width="800" height="120" fill="#0d1117" rx="12"/>
-  <line x1="0" y1="60" x2="800" y2="60" stroke="#161b22" stroke-width="1"/>
-  <line x1="400" y1="0" x2="400" y2="120" stroke="#161b22" stroke-width="1"/>
+<p align="center">
+  <em>Building intelligent systems that actually ship.</em>
+</p>
  
-  <!-- Greeting -->
-  <g opacity="0">
-    <text x="400" y="32" text-anchor="middle"
-      font-family="monospace" font-size="18" fill="#8b949e">Hi, I'm</text>
-    <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.6s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate"
-      from="0 10" to="0 0" begin="0.2s" dur="0.6s" fill="freeze"/>
-  </g>
- 
-  <!-- Ineshvir -->
-  <g opacity="0">
-    <text x="162" y="82" text-anchor="start"
-      font-family="monospace" font-size="36" font-weight="bold" fill="#ffffff">Ineshvir</text>
-    <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.7s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate"
-      from="0 12" to="0 0" begin="0.7s" dur="0.7s" fill="freeze"/>
-  </g>
- 
-  <!-- Singh -->
-  <g opacity="0">
-    <text x="357" y="82" text-anchor="start"
-      font-family="monospace" font-size="36" font-weight="bold" fill="#58a6ff">Singh</text>
-    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.7s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate"
-      from="0 12" to="0 0" begin="1.2s" dur="0.7s" fill="freeze"/>
-  </g>
- 
-  <!-- Khurana -->
-  <g opacity="0">
-    <text x="487" y="82" text-anchor="start"
-      font-family="monospace" font-size="36" font-weight="bold" fill="#ffffff">Khurana</text>
-    <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.7s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate"
-      from="0 12" to="0 0" begin="1.7s" dur="0.7s" fill="freeze"/>
-  </g>
- 
-  <!-- Blinking cursor -->
-  <rect x="639" y="56" width="3" height="26" rx="1" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.3s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" begin="2.7s" dur="1s" repeatCount="indefinite"/>
-  </rect>
- 
-</svg>
+<p align="center">
+  <a href="https://www.linkedin.com/in/ineshvirsinghkhurana">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/IneshvirSingh">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="/cdn-cgi/l/email-protection#e28b9491898a9790838c83a2858f838b8ecc818d8f">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=IneshvirSingh&style=for-the-badge&color=0e75b6" alt="Profile Views" />
+</p>
  
 ---
  
